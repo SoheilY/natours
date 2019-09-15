@@ -562,6 +562,9 @@ body {
         height: 25rem;
         text-align: center;
         padding-top: 3rem; } }
+    @media (max-width: 37.5em) {
+      .popup__left {
+        padding-top: 4rem; } }
   .popup__right {
     width: 66.66666667%;
     display: table-cell;
@@ -628,7 +631,7 @@ body {
         right: 1rem; } }
     @media (max-width: 37.5em) {
       .popup__close:link, .popup__close:visited {
-        top: 1rem;
+        top: 1.5rem;
         right: .5rem; } }
   .popup__close:hover {
     color: #55c57a; }
