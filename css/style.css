@@ -601,7 +601,7 @@ body {
     hyphens: auto; }
     @media (max-width: 37.5em) {
       .popup__text {
-        column-count: 1; } }
+        column-count: 1;font-size: 1rem; } }
   .popup:target {
     opacity: 1;
     visibility: visible; }
